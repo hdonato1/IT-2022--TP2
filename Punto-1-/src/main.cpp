@@ -81,7 +81,7 @@ WiFiServer server(80);
 void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
 
-  Serial.begin(115200);
+  Serial.begin(9600);
   Serial.println();
   Serial.println("Configuring access point...");
 
